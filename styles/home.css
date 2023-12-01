@@ -1,0 +1,16 @@
+#body {
+    padding: 30px 15% 0px 15%;
+}
+
+#nav {
+    /* background-color: aqua; */
+    
+}
+
+footer {
+    position: fixed;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin-top: auto;
+}

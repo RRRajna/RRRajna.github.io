@@ -11,35 +11,101 @@
     <!-- AOS CSS -->
     <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
   
+    <link href="styles/home.css" rel="stylesheet">
 </head>
 <body>
+    <nav id="nav" class="navbar navbar-expand-md sticky-top border-bottom" data-bs-theme="light">
+        <div class="container">
+          <a class="navbar-brand d-md-none" href="#">
+            <svg class="bi" width="24" height="24"><use xlink:href="#aperture"></use></svg>
+            Ruwaida's Portfolio
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvas" aria-controls="#offcanvas" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="#offcanvas" aria-labelledby="#offcanvasLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="#offcanvasLabel">Portfolio</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav flex-grow-1 justify-content-between">
+                <li class="nav-item"><a class="nav-link" href="#">
+                  <svg class="bi" width="24" height="24"><use xlink:href="#aperture"></use></svg>
+                </a></li>
+                <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="#research">Research</a></li>
+                <li class="nav-item"><a class="nav-link" href="#publication">Publications</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                <!-- <li class="nav-item"><a class="nav-link" href="#">
+                  <svg class="bi" width="24" height="24"><use xlink:href="#cart"></use></svg>
+                </a></li> -->
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+    
+    <div class="row container-fluid">
+    <div class="col-md-3 well">
+      <header>
+          <h1 class="display-4 fw-bold text-body-emphasis text-md-start text-center">Ruwaida Raneem Rajna</h1>
+          <h3 class="text-md-start text-center">Biomedical Research Experience With Infectious Disease Focus</h3>
+      </header>
+      <img src="media/profile.jpg" class="img-fluid d-none d-md-block">
+      <div class="row">
+        <p class="col-6 text-center text-muted">email</p>
+        <p class="col-6 text-center text-muted">linkedin</p>
+      </div>
+    </div>
+    
 
-    <header>
-        <h1>Ruwaida Raneem Rajna</h1>
-        <h2>Biological Researcher Portfolio</h2>
-    </header>
-
-    <nav>
-        <a href="#about">About</a>
-        <a href="#research">Research</a>
-        <a href="#contact">Contact</a>
-    </nav>
-
+  
+  <div class="col-md-9 well" id="body">
+    <section>
+      <h2>Current Role</h2>
+      <p>
+        OITE-Post Baccalaureate Trainee at the National Institutes of Health
+      </p>
+  </section>
+    
     <section id="about">
-        <h2>About Me</h2>
-        <p>Replace this text with information about yourself and your background as a biological researcher.</p>
+        <h2>Biography</h2>
+        <p></p>
     </section>
+
+    <section id="education">
+        <h3>Education</h3>
+        <h5>
+          Georgia State University, Atlanta, GA
+        </h5>
+        <p>Ruwaida received her BS of Interdisciplinary Studies in Biomedical Science and Enterprise from Georgia State University, GA. She has completed fellowship in GSU's Maximizing Access to Research Careers (MARC) and is currently applying for a PhD in Immunology.</p>
+      </section>
 
     <section id="research">
         <h2>Research</h2>
-        <p>Include details about your recent research work, projects, and accomplishments. You can also add links to your publications or studies here.</p>
+        <p>
+          Ruwaida's research interests pertain to elucidating complex biological mechanisms and biochemical cascades that are the interactions between host and pathogen to combat infectious diseases. She has conducted her undergraduate research at Georgia State University analyzing metal starvation tactics of hosts to deprive gonococcal bacteria of nutrition. The counter attempts at metal sequestration of Neisseria gonorrhoeae, a highly infectious sexually transmitted bacteria from the host is equally fascinating and has driven Ruwaida's undergraduate research goals. <br>
+          <br>She has also conducted literary research on Streptococcal bacteria and their functions in maintaining metal homeostasis for improved pathogenesis. For her summer research at Harvard Medical School, Ruwaida explored a unique branch of biomedical science, known as spatial transcriptomics where she and her lab aimed to adapt novel techniques of high-throughput sequencing with CRISPR-Cas 9 deletions to better understand hostmicrobial interactions in intact tissues. <br>
+          <br>Now, Ruwaida is conducting research at the National Cancer Institute to study macrophage behaviors in microbial infections to understand macrophage induced tumor-immunity suppressive roles. Her long-term goal is to understand antimicrobial resistance in pathogens to unravel mechanisms of rapid pathogenic adaptability. In the future, Ruwaida want to work with the Center for Disease Control and Prevention to develop novel vaccines and sustainable models for antibiotics. 
+        </p>
+        <div class="card card-subtitle card-body">
+          <!-- <ul>
+            <li><p>Maximizing Access to Research Careers Fellow</p></li>
+            <li><p>Maximizing Access to Research Careers Fellow</p></li>
+            <li><p>Maximizing Access to Research Careers Fellow</p></li>
+          </ul> -->
+          
+        </div>
+        
     </section>
 
-    <section id="contact">
-        <h2>Contact Me</h2>
-        <p>Feel free to reach out to me at: your.email@example.com</p>
+    <section id="publication">
+        <h2>Work/Publications</h2>
+        <h6>Honors Thesis (Literature Review): Zinc Homeostasis in Streptococcus pyogenes and Streptococcus pneumoniae</h6>
     </section>
-
+  </div>
+</div>
     <footer>
         <p>&copy; 2023 Ruwaida Rajna</p>
     </footer>
