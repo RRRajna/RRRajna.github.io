@@ -14,7 +14,7 @@
     <link href="styles/home.css" rel="stylesheet">
 </head>
 <body>
-    <nav id="nav" class="navbar navbar-expand-md sticky-top border-bottom" data-bs-theme="light">
+    <nav id="nav" class="navbar navbar-expand-md sticky-top border-bottom" data-bs-theme="dark">
         <div class="container">
           <a class="navbar-brand d-md-none" href="#">
             <svg class="bi" width="24" height="24"><use xlink:href="#aperture"></use></svg>
@@ -30,13 +30,15 @@
             </div>
             <div class="offcanvas-body">
               <ul class="navbar-nav flex-grow-1 justify-content-between">
-                <li class="nav-item"><a class="nav-link" href="#">
-                  <svg class="bi" width="24" height="24"><use xlink:href="#aperture"></use></svg>
-                </a></li>
+                <li class="nav-item"></li>
+                <li class="nav-item"></li>
+                <li class="nav-item"></li>
+                <li class="nav-item"></li>
                 <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
                 <li class="nav-item"><a class="nav-link" href="#research">Research</a></li>
                 <li class="nav-item"><a class="nav-link" href="#publication">Publications</a></li>
-                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                <li class="nav-item"><a target="_blank" class="nav-link" href="https://bit.ly/m/ruwaida-rajna-contact">Contact</a></li>
+                <li class="nav-item"></li>
                 <!-- <li class="nav-item"><a class="nav-link" href="#">
                   <svg class="bi" width="24" height="24"><use xlink:href="#cart"></use></svg>
                 </a></li> -->
@@ -47,41 +49,52 @@
       </nav>
     
     <div class="row container-fluid">
+      <div class="col-md-1 d-none d-sm-block"></div>
     <div class="col-md-3 well">
-      <header>
-          <h1 class="display-4 fw-bold text-body-emphasis text-md-start text-center">Ruwaida Raneem Rajna</h1>
-          <h3 class="text-md-start text-center">Biomedical Research Experience With Infectious Disease Focus</h3>
-      </header>
-      <img src="media/profile.jpg" class="img-fluid d-none d-md-block">
-      <div class="row">
-        <p class="col-6 text-center text-muted">email</p>
-        <p class="col-6 text-center text-muted">linkedin</p>
+      <div id="info">
+        <img src="media/profile.jpg" class="img-fluid d-none d-md-block" id="profile">
+        <header>
+            <h3 class="display-6 fw-bold text-body-emphasis text-md-start text-center">Ruwaida Raneem Rajna</h3>
+            <h4 class="text-md-start text-center">Biomedical Research Experience With Infectious Disease Focus</h4>
+        </header>
+        <div class="row">
+          <p class="col-6 text-center text-muted"><a href="mailto: rajnaruwaida98@gmail.com">email</a></p>
+          <p class="col-6 text-center text-muted"><a href="https://www.linkedin.com/in/ruwaida-rajna-570b921b2/">LinkedIn</a></p>
+      </div>
       </div>
     </div>
     
 
   
-  <div class="col-md-9 well" id="body">
+  <div class="col-md-8 well" id="body">
     <section>
       <h2>Current Role</h2>
       <p>
-        OITE-Post Baccalaureate Trainee at the National Institutes of Health
+        OITE-Post Baccalaureate Trainee at the National Cancer Institute - National Institutes of Health 
       </p>
   </section>
+  <br><br>
     
     <section id="about">
         <h2>Biography</h2>
         <p></p>
     </section>
-
+    <br><br>
     <section id="education">
         <h3>Education</h3>
         <h5>
           Georgia State University, Atlanta, GA
         </h5>
         <p>Ruwaida received her BS of Interdisciplinary Studies in Biomedical Science and Enterprise from Georgia State University, GA. She has completed fellowship in GSU's Maximizing Access to Research Careers (MARC) and is currently applying for a PhD in Immunology.</p>
+        <div class="card card-subtitle card-subtitle">
+          <h5>Relevent Courses</h5>
+           <ul>
+            <li><p><b>Biomedical Science Related Coursework:</b> Principles of Chemistry I & Lab; Principles of Chemistry II & Lab; Principles of Biology I & Lab; Principles of Biology II & Lab; Molecular Cell Biology; Organic Chemistry I; Intermediate Organic Chemistry Lab I & II; Careers in Biomedical Science; Scientific Communications; Experimental Approaches to Biomedical Science; Biomedical Ethics; Translational Immunology; Honors Thesis I and II</p></li>
+            <li><p><b>Computer Science Coursework:</b> Principles of Computer Science I & II; Data Structures; System-Level Programming</p></li>
+          </ul>
+        </div>
       </section>
-
+      <br><br>
     <section id="research">
         <h2>Research</h2>
         <p>
@@ -89,21 +102,37 @@
           <br>She has also conducted literary research on Streptococcal bacteria and their functions in maintaining metal homeostasis for improved pathogenesis. For her summer research at Harvard Medical School, Ruwaida explored a unique branch of biomedical science, known as spatial transcriptomics where she and her lab aimed to adapt novel techniques of high-throughput sequencing with CRISPR-Cas 9 deletions to better understand hostmicrobial interactions in intact tissues. <br>
           <br>Now, Ruwaida is conducting research at the National Cancer Institute to study macrophage behaviors in microbial infections to understand macrophage induced tumor-immunity suppressive roles. Her long-term goal is to understand antimicrobial resistance in pathogens to unravel mechanisms of rapid pathogenic adaptability. In the future, Ruwaida want to work with the Center for Disease Control and Prevention to develop novel vaccines and sustainable models for antibiotics. 
         </p>
-        <div class="card card-subtitle card-body">
-          <!-- <ul>
-            <li><p>Maximizing Access to Research Careers Fellow</p></li>
-            <li><p>Maximizing Access to Research Careers Fellow</p></li>
-            <li><p>Maximizing Access to Research Careers Fellow</p></li>
-          </ul> -->
-          
-        </div>
-        
     </section>
-
+    <br><br>
     <section id="publication">
         <h2>Work/Publications</h2>
-        <h6>Honors Thesis (Literature Review): Zinc Homeostasis in Streptococcus pyogenes and Streptococcus pneumoniae</h6>
+
+        <div class="row">
+        <div class="col-5 container">
+          <a target="_blank" href="media/Ruwaida_Rajna_SHURP 2022_Poster_FINAL_JMedits_outlines.pdf"><img src="media/SHURPPoster.jpg" class="img-fluid">
+        <h6>Equipping pooled CRISPR screens with <i>in situ</i> tracking  of individual sgRNA</h6></a>
+        </div>
+        <div class="col-1"></div>
+        <div class="col-5 container">
+          <a target="_blank" href="media/FinalPoster.png"><img src="media/FinalPoster.png" class="img-fluid">
+        <h6>Analysis of Fur-dependent gene regulation of the gonococcal TonB-dependent transport proteins involved in zinc aquisition</h6></a>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-5 container">
+          <a target="_blank" href="media/Symposium Abstract Booklet 2021.pdf"><img src="media/Symposium.jpg" class="img-fluid">
+        <h6>Going the Distance 2.0 - End-of-Summer Poster Symposium</h6></a>
+        </div>
+        <div class="col-1"></div>
+        <div class="col-5 container">
+          <a target="_blank" href="media/Honors Thesis fall 2022.docx"><img src="media/HonorsThesis.png" class="img-fluid">
+        <h6>Zinc Homeostasis in Streptococcus pyogenes and Streptococcus pneumoniae: A Literature Review</h6></a>
+        </div>
+      </div>
+
     </section>
+    <br><br><br>
   </div>
 </div>
     <footer>
